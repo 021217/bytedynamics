@@ -4,56 +4,78 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+  <style>
+    li{
+      font-weight: 600;
+      color: white;
+    }
+  </style>
 </head>
 <body>
       <!-- Header -->
-      <div class="navbar bg-transparent">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-transparent rounded-box w-52">
-                  <li><a>Item 123</a></li>
-                  <li>
-                    <a>Parent</a>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </li>
-                  <li><a>Item 3</a></li>
-                </ul>
+      <div class="flex justify-center">
+        <div class="navbar bg-transparent bg-opacity-0 absolute w-1/2">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
               </div>
-              <a class="btn btn-ghost text-xl">daisyUI</a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a>Item 1</a></li>
+              <ul tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-transparent bg-opacity-0 rounded-box w-52">
+                <li><a>Home</a></li>
                 <li>
-                  <details>
-                    <summary>Parent</summary>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </details>
+                  <a>About This Plan</a>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
                 </li>
-                <li><a>Item 3</a></li>
+                <li><a>Our Work</a></li>
+                <li><a>Contact</a></li>
               </ul>
             </div>
-            <div class="navbar-end">
-              <a class="btn">Button</a>
-            </div>
+            <a class="btn btn-ghost text-xl text-white">Mevion Design</a>
           </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li>
+                <details>
+                  <summary>About This Plan</summary>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li><a>Our Work</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn text-white">Subscribe Now</a>
+          </div>
+        </div>
+      </div>
+      
           <!-- Hero -->
-      <div class="hero min-h-screen" style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
-            <div class="hero-overlay bg-opacity-60"></div>
+      <div class="hero min-h-screen" style="background-image: url(https://meviondesign.com/wp-content/uploads/2024/01/WELCOME-BG-1-1-1-scaled.webp);">
+            <div class="hero-overlay bg-opacity-0"></div>
             <div class="hero-content text-center text-neutral-content">
-              <div class="max-w-md">
-                <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                <button class="btn btn-primary">Get Started</button>
+              <div class="max-w-1/2">
+                <h1 class="mb-5 text-7xl font-semibold text-white text-left">Unlimited Design Plan For Your Creative Needs.</h1>
+                <p class="mb-5 text-2xl font-semibold text-white text-left">Flat Monthly Fee. No Contract. No Hidden Cost.</p>
+                <div class="flex justify-start">
+                  <button class="btn text-white px-12">Plan Perks</button>
+                  <button class="btn text-white px-12 mx-6">How it works</button>
+                  <button class="btn btn-ghost text-white px-12">See Pricing</button>
+                </div>
+                
+              </div>
+              <div class="max-w-1/2">
+                <img src="https://meviondesign.com/wp-content/uploads/2024/01/THUMBNAILS_rev-01-2-1024x934.webp" alt="" class="w-full">
               </div>
             </div>
           </div>
