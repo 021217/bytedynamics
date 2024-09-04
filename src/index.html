@@ -23,7 +23,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
             </svg>
           </div>
-          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-black rounded-box w-52">
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-black rounded-box w-52 text-black">
             <li><a href="#home">Home</a></li>
             <li>
               <a>About This Plan</a>
@@ -37,10 +37,10 @@
             <li><a>Contact</a></li>
           </ul>
         </div>
-        <a href="#" class="text-white"><img src="img/AC-logo-web-White.png" alt="AC Web"></a>
+        <a href="#" class="text-white"><img src="img/AC-logo-Web-black.png" alt="AC Web"></a>
       </div>
       <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal px-1">
+        <ul class="menu menu-horizontal px-1 text-black">
           <li><a class="#home">Home</a></li>
           <li>
             <details>
@@ -63,22 +63,21 @@
   </div>
   
   <!-- Hero -->
-  <div class="hero min-h-screen"
-    style="background-image: url(https://meviondesign.com/wp-content/uploads/2024/01/WELCOME-BG-1-1-1-scaled.webp);">
+  <div class="hero bg-[#F9DA6D]">
     <div class="hero-overlay bg-opacity-0"></div>
-    <div class="hero-content text-center text-neutral-content lg:flex-row flex-col-reverse">
-      <div class="md:w-1/2">
-        <h1 class="mb-5 xl:text-5xl md:text-4xl text-2xl font-semibold text-white lg:text-left text-center">All Your Graphic Design Needs In One Single Monthly Subscription.</h1>
-        <p class="mb-5 xl:text-2xl md:text-xl font-semibold text-white lg:text-left text-center">Access premium custom graphics, vector designs, logos, and more each month, ensuring you never exceed your budget.</p>
-        <div class="md:flex md:flex-row flex-col lg:justify-start justify-center">
-          <button class="btn text-white px-12">Subscribe Now!</button>
-          <button class="btn text-white px-12 md:mx-6 md:my-0 my-6">Book Intro Call</button>
-        </div>
-  
-      </div>
+    <div class="hero-content pb-0 pt-28 text-center text-neutral-content lg:flex-row flex-col-reverse">
       <div class="md:w-1/2">
         <img src="img/Mouse.png" alt="AC Web"
           class="w-full">
+      </div>
+      <div class="md:w-1/2">
+        <h1 class="mb-5 xl:text-5xl md:text-4xl text-2xl font-semibold text-white lg:text-left text-center bg-black">SUBSCRIPTION-BASED</h1>
+        <p class="mb-5 xl:text-2xl md:text-xl font-semibold text-black lg:text-left text-center">Access premium custom graphics, vector designs, logos, and more each month, ensuring you never exceed your budget.</p>
+        <div class="md:flex md:flex-row flex-col lg:justify-start justify-center">
+          <button class="btn text-white px-12">Subscribe Now!</button>
+          <button class="btn text-black btn-outline hover:bg-transparent hover:border-black  border-black px-12 md:mx-6 md:my-0 my-6">Book Intro Call</button>
+        </div>
+  
       </div>
     </div>
   </div>
@@ -106,137 +105,273 @@
   </div>
   
   <!-- Plan Perks -->
-  <div id="plan-perks" class="flex flex-col justify-center items-center xl:px-96 md:px-8 px-4 lg:py-32 md:py-16 py-8 bg-white">
+  <div id="plan-perks" class="flex flex-col justify-center items-center xl:px-60 md:px-8 px-4 lg:py-32 md:py-16 py-8 bg-white">
     <div>
       <h1 class="text-5xl font-semibold text-center text-black my-8">Advantages of Our Graphic Design Subscription
       </h1>
     </div>
-    <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-12 md:gap-24 gap-0">
-      <div class="flex flex-col justify-center md:my-0 my-8">
-        <img src="img/Sec 2-01.png"
-          class="lg:w-full md:w-3/4 w-1/2 self-center" alt="">
-        <h1 class="text-2xl text-black font-bold md:my-10 my-5 xl:text-start text-center">Unlimited Designs</h1>
+    <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-0">
+      <div class="flex flex-col justify-stretch my-0 border border-black hover:border-[#F9DA6D] p-10">
+        <div class="avatar">
+          <div class="w-24 rounded">
+            <img src="img/Sec 2-01.png" />
+          </div>
+        </div>
+        <h1 class="text-2xl text-black font-bold my-3 xl:text-start text-center">Unlimited Designs</h1>
         <span class="text-black xl:text-start text-center">With our design subscription, you’re assured unlimited access to high-quality visuals, tailored precisely to your needs. Enjoy a continuous flow of creative designs from our team, available on demand whenever required.
         </span>
       </div>
-      <div class="flex flex-col justify-center md:my-0 my-8">
-        <img src="img/Sec 2-02.png"
-          class="lg:w-full md:w-3/4 w-1/2 self-center" alt="">
-        <h1 class="text-2xl text-black font-bold md:my-10 my-5 xl:text-start text-center">No Recruitment Costs</h1>
+      <div class="flex flex-col justify-stretch my-0 border border-black hover:border-[#F9DA6D] p-10">
+        <div class="avatar">
+          <div class="w-24 rounded">
+            <img src="img/Sec 2-02.png" />
+          </div>
+        </div>
+        <h1 class="text-2xl text-black font-bold my-3 xl:text-start text-center">No Recruitment Costs</h1>
         <span class="text-black xl:text-start text-center">Avoid the expenses and complexities of hiring an in-house graphic designer. Our subscription service connects you with a professional designer quickly and cost-effectively, without the hassle of recruitment.</span>
       </div>
-      <div class="flex flex-col justify-center md:my-0 my-8">
-        <img src="img/Sec 2-03.png"
-          class="lg:w-full md:w-3/4 w-1/2 self-center" alt="">
-        <h1 class="text-2xl text-black font-bold md:my-10 my-5 xl:text-start text-center">One Flat Fee</h1>
+      <div class="flex flex-col justify-stretch my-0 border border-black hover:border-[#F9DA6D] p-10">
+        <div class="avatar">
+          <div class="w-24 rounded">
+            <img src="img/Sec 2-03.png" />
+          </div>
+        </div>
+        <h1 class="text-2xl text-black font-bold my-3 xl:text-start text-center">One Flat Fee</h1>
         <span class="text-black xl:text-start text-center">Avoid the escalating costs of paying per design with our flat-fee subscription service. For a single monthly fee, you gain unlimited access to designs—no more budget surprises or hidden charges. You’ll always know your exact monthly cost, regardless of the number of designs you need.</span>
       </div>
-      <div class="flex flex-col justify-center md:my-0 my-8">
-        <img src="img/Sec 2-04.png"
-          class="lg:w-full md:w-3/4 w-1/2 self-center" alt="">
-        <h1 class="text-2xl text-black font-bold md:my-10 my-5 xl:text-start text-center">Own Every Design</h1>
+      <div class="flex flex-col justify-stretch my-0 border border-black hover:border-[#F9DA6D] p-10">
+        <div class="avatar">
+          <div class="w-24 rounded">
+            <img src="img/Sec 2-04.png" />
+          </div>
+        </div>
+        <h1 class="text-2xl text-black font-bold my-3 xl:text-start text-center">Own Every Design</h1>
         <span class="text-black xl:text-start text-center">All designs you receive through our subscription are fully yours, with no copyright worries. Use your visuals freely for any purpose, from websites to marketing materials, with complete ownership of each design.</span>
       </div>
-      <div class="flex flex-col justify-center md:my-0 my-8">
-        <img src="img/Sec 2-05.png"
-          class="lg:w-full md:w-3/4 w-1/2 self-center" alt="">
-        <h1 class="text-2xl text-black font-bold md:my-10 my-5 xl:text-start text-center">Fast Turnaround</h1>
+      <div class="flex flex-col justify-stretch my-0 border border-black hover:border-[#F9DA6D] p-10">
+        <div class="avatar">
+          <div class="w-24 rounded">
+            <img src="img/Sec 2-05.png" />
+          </div>
+        </div>
+        <h1 class="text-2xl text-black font-bold my-3 xl:text-start text-center">Fast Turnaround</h1>
         <span class="text-black xl:text-start text-center">Need designs in a hurry? Our subscription service ensures a swift turnaround time of 1-2 days, so you can meet tight deadlines with ease and confidence.</span>
       </div>
-      <div class="flex flex-col justify-center md:my-0 my-8">
-        <img src="img/Sec 2-06.png"
-          class="lg:w-full md:w-3/4 w-1/2 self-center" alt="">
-        <h1 class="text-2xl text-black font-bold md:my-10 my-5 xl:text-start text-center">Scale As Needed</h1>
+      <div class="flex flex-col justify-stretch my-0 border border-black hover:border-[#F9DA6D] p-10">
+        <div class="avatar">
+          <div class="w-24 rounded">
+            <img src="img/Sec 2-06.png" />
+          </div>
+        </div>
+        <h1 class="text-2xl text-black font-bold my-3 xl:text-start text-center">Scale As Needed</h1>
         <span class="text-black xl:text-start text-center">Adjusting your design resources is simple with our subscription model. Whether you need more or fewer designs, our flexible service adapts to your requirements, ensuring you’re never over or under-resourced.
         </span>
       </div>
     </div>
   </div>
 
-  <!-- Ad-Hoc -->
-  <div
-    class="min-h-[65vh] bg-[url('https://meviondesign.com/wp-content/uploads/2024/01/WWE_BG2-01-01-1.webp')] flex lg:flex-row flex-col justify-between items-center xl:px-96 py-8 px-12">
-    <div class="w-full lg:w-1/2">
-      <h1 class="text-white xl:text-6xl md:text-4xl text-2xl font-bold my-8">Request Unlimited Designs With Monthly Flat Fees
-      </h1>
-      <p class="text-white my-8">Experience the ultimate convenience in design services! With our monthly flat rate, you can request as many designs as you need throughout the month, including unlimited revisions and brand adjustments—all for a single, fixed fee. </p>
-      <h4 class="text-[#F9DA6D]  text-xl font-bold">Contact Us to custom
-          your package need
-      </h4>
+<!-- Slider main container -->
+<div class="md:py-8 mx-8">
+  <div class="flex md:flex-row flex-col justify-between items-center xl:px-96 px-12 py-8">
+    <h1 class="text-black xl:text-6xl md:text-3xl text-xl font-bold ">Our Remarkable Projects</h1>
+    <button class="btn btn-md px-12 bg-[#F9DA6D] hover:bg-[#d3b64f] rounded-md border-0 text-black shadow-md my-5 md:my-0">Show
+      More</button>
+  </div>
+  <div class="amazing-work2 overflow-hidden">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img class="rounded-xl" src="https://meviondesign.com/wp-content/uploads/elementor/thumbs/Website-Printed-Media-01-min-scaled-q3sajd2075df15o35iadmz6u812avurv9wmzdqv734.webp" alt=""></div>
+      <div class="swiper-slide"><img class="rounded-xl" src="https://meviondesign.com/wp-content/uploads/elementor/thumbs/hui_post3-q3saf2wh2bie53w05nnka238su63thrw0pncod7rfk.webp" alt=""></div>
+      <div class="swiper-slide"><img class="rounded-xl" src="https://meviondesign.com/wp-content/uploads/elementor/thumbs/MOBILES-PORTFOLIO-16-q3sagdwek1aq9lzqj7ywqq8ai3qgicygv69mo7a2sg.webp" alt=""></div>
+      <div class="swiper-slide"><img class="rounded-xl" src="https://meviondesign.com/wp-content/uploads/elementor/thumbs/Website-Printed-Media-05-min-q3sarrq1bsvqvlgg2548xut9i3mhqe5fripbwueffk.webp" alt=""></div>
+      <div class="swiper-slide"><img class="rounded-xl" src="https://meviondesign.com/wp-content/uploads/elementor/thumbs/GIVEAWAY-q3saey7a45byj22tx3mffl9xtwt9r098c2dx9zeqao.webp" alt=""></div>
+      <div class="swiper-slide"><img class="rounded-xl" src="https://meviondesign.com/wp-content/uploads/elementor/thumbs/MOBILES-PORTFOLIO-02-q3safnkx8oap8j1yswlcswvdvbc6iu1zfk018gd3mo.webp" alt=""></div>
     </div>
-    <div class="w-full lg:w-1/2">
-      <img src="img/Mouse.png" alt="">
+  
+  </div>
+</div>
+
+<!-- Package -->
+<div id="pricing"
+  class="flex lg:flex-row flex-col justify-between items-center xl:px-96 py-8 min-h-[90vh] bg-[url('https://meviondesign.com/wp-content/uploads/2024/01/BLOB1-1-1.webp')] bg-center bg-no-repeat">
+  <div class="lg:w-1/2 w-full lg:my-0 md:my-20 my-10 lg:text-start text-center px-12">
+    <h4 class="text-black xl:text-4xl text-xl font-bold">Request <span class="text-[#F9DA6D]">Unlimited Design</span>
+      With Monthly Flat Fees</h4>
+    <p class="text-black my-8">Experience the ultimate convenience in design services! With our monthly flat rate, you
+      can request as many designs as you need throughout the month, including unlimted revisions and brand
+      adjustments-all for a single, fixed fee. </p>
+
+  </div>
+  <div class="lg:w-1/2 w-full min-h-full md:px-12 px-4">
+    <div class="card bg-[#313030] w-full h-full shadow-2xl shadow-[#F9DA6D] text-white">
+      <div class="card-body">
+        <div class="flex flex-col justify-between">
+          <h4 class="text-md font-bold md:mt-5 mt-2">Static Design</h4>
+          <h2 class="card-title text-4xl md:my-5 my-2">Basic Package</h2>
+          <p>Instant access to our graphic team for full design services.</p>
+        </div>
+
+        <hr class="my-10">
+        <div class="card-actions flex flex-col items-center justify-between">
+          <h1 class="md:text-6xl text-3xl font-semibold"><span class="md:text-4xl text-xl">MYR</span>2500<span
+              class="md:text-lg text-sm">/month</span></h1>
+          <button class="btn btn-block mt-10 mb-5 bg-[#F9DA6D] hover:bg-[#d3b64f] border-none text-black">Contact Us To
+            Tailor Your Package</button>
+        </div>
+      </div>
     </div>
   </div>
+</div>
 
   <!-- Plan Perks -->
   <div id="how-it-works"
-    class="min-h-[100vh] flex flex-col justify-center items-center xl:px-96 md:px-8 px-4 lg:py-32 md:py-16 py-8 bg-white">
+    class="min-h-[60vh] flex flex-col justify-center items-center xl:px-60 md:px-8 px-4 lg:py-32 md:py-16 py-8 bg-white">
     <div>
-      <h1 class="text-5xl font-semibold text-center text-black">How It Works</h1>
-      <div class=""></div>
-      <p class="text-center my-8 text-gray-500">Our Design Process</p>
+      <h1 class="md:text-5xl text-3xl font-bold text-center text-black md:my-10 my-5">How It Works(Our Design Process)</h1>
     </div>
-    <div class="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 xl:gap-12 md:gap-24 gap-0">
-      <div class="flex flex-col justify-center md:my-0 my-8">
-        <img src="img/How it work-01.png"
-          class="lg:w-full md:w-3/4 w-1/2 self-center" alt="">
-        <h1 class="text-2xl text-black font-bold md:my-10 my-5 text-center">Submit Your Requests</h1>
-        <span class="text-black text-center">Upload your design requests to our dedicated Trello board for your project. Ensure you provide detailed instructions and any reference materials to help guide the design.</span>
+    <div class="grid lg:grid-cols-2 grid-cols-1 xl:gap-16 gap-0">
+      <div class="flex flex-col md:flex-row justify-center md:my-0 my-8">
+        <div class="flex justify-center md:justify-start">
+          <div class="avatar">
+            <div class="md:w-44 w-56 rounded">
+              <img src="img/How it work-01.png" />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col justify-center">
+          <h1 class="text-2xl text-black font-bold md:text-left text-center">Submit Your Requests</h1>
+          <span class="text-black md:text-left text-justify px-10 md:px-0">Upload your design requests to our dedicated Trello board for your project. Ensure you provide detailed instructions and any reference materials to help guide the design.</span>
+        </div>
       </div>
-      <div class="flex flex-col justify-center md:my-0 my-8">
-        <img src="img/How it work-02.png"
-          class="lg:w-full md:w-3/4 w-1/2 self-center" alt="">
-        <h1 class="text-2xl text-black font-bold md:my-10 my-5 text-center">Design Development</h1>
-        <span class="text-black text-center">Our project manager and designer will review your requests and begin the design process once everything is clear. We prioritize your requests and work on them according to your needs.</span>
+      <div class="flex flex-col md:flex-row justify-center md:my-0 my-8">
+        <div class="flex justify-center md:justify-start">
+          <div class="avatar">
+            <div class="md:w-44 w-56 rounded">
+              <img src="img/How it work-02.png" />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col justify-center">
+          <h1 class="text-2xl text-black font-bold md:text-left text-center">Design Development</h1>
+          <span class="text-black md:text-left text-justify px-10 md:px-0">Our project manager and designer will review your requests and begin the design process once everything is clear. We prioritize your requests and work on them according to your needs.</span>
+        </div>
       </div>
-      <div class="flex flex-col justify-center md:my-0 my-8">
-        <img src="img/How it work-03.png"
-          class="lg:w-full md:w-3/4 w-1/2 self-center" alt="">
-        <h1 class="text-2xl text-black font-bold md:my-10 my-5 text-center">Feedback & Revisions</h1>
-        <span class="text-black text-center">You’ll receive the completed designs for review. While we start on your next request, provide feedback, and we’ll promptly make any required adjustments to ensure your satisfaction.</span>
+      <div class="flex flex-col md:flex-row justify-center md:my-0 my-8">
+        <div class="flex justify-center md:justify-start">
+          <div class="avatar">
+            <div class="md:w-44 w-56 rounded">
+              <img src="img/How it work-03.png" />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col justify-center">
+          <h1 class="text-2xl text-black font-bold md:text-left text-center">Feedback & Revisions</h1>
+          <span class="text-black md:text-left text-justify px-10 md:px-0">You’ll receive the completed designs for review. While we start on your next request, provide feedback, and we’ll promptly make any required adjustments to ensure your satisfaction.</span>
+        </div>
       </div>
-      <div class="flex flex-col justify-center md:my-0 my-8">
-        <img src="img/How it work-04.png"
-          class="lg:w-full md:w-3/4 w-1/2 self-center" alt="">
-        <h1 class="text-2xl text-black font-bold md:my-10 my-5 text-center">Receive Your Final Designs</h1>
-        <span class="text-black text-center">Once you approve the designs, we’ll deliver the final files to you via email, including all necessary formats and source files. This streamlined process continues throughout your subscription.</span>
+      <div class="flex flex-col md:flex-row justify-center md:my-0 my-8">
+        <div class="flex justify-center md:justify-start">
+          <div class="avatar">
+            <div class="md:w-44 w-56 rounded">
+              <img src="img/How it work-04.png" />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col justify-center">
+          <h1 class="text-2xl text-black font-bold md:text-left text-center">Receive Your Final Designs</h1>
+          <span class="text-black md:text-left text-justify px-10 md:px-0">Once you approve the designs, we’ll deliver the final files to you via email, including all necessary formats and source files. This streamlined process continues throughout your subscription.</span>
+        </div>
       </div>
     </div>
   </div>
 
-  <div id="how-it-works"
-    class="min-h-[100vh] flex flex-col justify-center items-center xl:px-96 md:px-8 px-4 lg:py-32 md:py-16 py-8 bg-white">
+  <div id="offers"
+    class="min-h-[100vh] flex flex-col justify-center items-center xl:px-30 md:px-8 px-4 md:py-16 py-8 bg-white">
     <div>
-      <h1 class="text-5xl font-semibold text-center text-black">We offer more than just graphic design</h1>
+      <h1 class="lg:text-5xl md:text-4xl text-3xl font-semibold text-center text-black">We offer more than just graphic design</h1>
       <div class=""></div>
-      <p class="text-center my-8 text-gray-500">we provide a comprehensive package that includes development, content creation, advertising, and photo & video production. Experience a complete digital marketing solution from a top agency, designed to drive unstoppable growth.</p>
+      <p class="text-center my-8 text-black font-semibold lg:px-60 md:px-16">we provide a comprehensive package that includes development, content creation, advertising, and photo & video production. Experience a complete digital marketing solution from a top agency, designed to drive unstoppable growth.</p>
     </div>
-    <div class="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 xl:gap-12 md:gap-24 gap-0">
-      <div class="flex flex-col justify-center md:my-0 my-8">
+    <div class="xl:grid-cols-4 md:grid-cols-2 xl:gap-4 gap-0 hidden lg:grid">
+      
+      <div class="relative">
         <img src="img/Other Service-01.png"
-          class="lg:w-full md:w-3/4 w-1/2 self-center" alt="">
-        <h1 class="text-2xl text-black font-bold md:my-10 my-5 text-center">Transform Your Social Media</h1>
-        <span class="text-black text-center">AC Creative Space provides monthly social media management, including graphic design, content strategy, copywriting, and post-scheduling, for a complete visual overhaul.</span>
+          class="self-center" alt="">
+          <div class="absolute bottom-0 left-0 card bg-[#F9DA6D] mr-16">
+            <div class="card-body p-3 gap-0">
+              <h1 class="text-md text-black font-bold text-left">Transform Your Social Media</h1>
+              <span class="text-black text-left text-sm">AC Creative Space provides monthly social media management, including graphic design, content strategy, copywriting, and post-scheduling, for a complete visual overhaul.</span>
+            </div>
+          </div>
       </div>
-      <div class="flex flex-col justify-center md:my-0 my-8">
+      <div class="relative">
         <img src="img/Other Service-02.png"
-          class="lg:w-full md:w-3/4 w-1/2 self-center" alt="">
-        <h1 class="text-2xl text-black font-bold md:my-10 my-5 text-center">Photography</h1>
-        <span class="text-black text-center">AC Creative Space offers both graphic design and professional photography. From marketing campaigns to product shoots, our expert team ensures high-quality visuals for your brand. Get seamless, top-notch design and photography services in one place.</span>
+          class="self-center" alt="">
+          <div class="absolute bottom-0 left-0 card bg-[#F9DA6D] mr-16">
+            <div class="card-body p-3 gap-0">
+              <h1 class="text-md text-black font-bold text-left">Photography</h1>
+              <span class="text-black text-left text-sm">AC Creative Space offers both graphic design and professional photography. From marketing campaigns to product shoots, our expert team ensures high-quality visuals for your brand. Get seamless, top-notch design and photography services in one place.</span>
+            </div>
+          </div>
       </div>
-      <div class="flex flex-col justify-center md:my-0 my-8">
+      <div class="relative">
         <img src="img/Other Service-03.png"
-          class="lg:w-full md:w-3/4 w-1/2 self-center" alt="">
-        <h1 class="text-2xl text-black font-bold md:my-10 my-5 text-center">Website Development</h1>
-        <span class="text-black text-center">AC Creative Space offers expert website development services. Our team creates responsive, user-friendly websites tailored to your brand. From e-commerce platforms to corporate sites, we deliver custom solutions to enhance your online presence and drive engagement.</span>
+          class="self-center" alt="">
+          <div class="absolute bottom-0 left-0 card bg-[#F9DA6D] mr-16">
+            <div class="card-body p-3 gap-0">
+              <h1 class="text-md text-black font-bold text-left">Website Development</h1>
+              <span class="text-black text-left text-sm">AC Creative Space offers expert website development services. Our team creates responsive, user-friendly websites tailored to your brand. From e-commerce platforms to corporate sites, we deliver custom solutions to enhance your online presence and drive engagement.</span>
+            </div>
+          </div>
       </div>
-      <div class="flex flex-col justify-center md:my-0 my-8">
+      <div class="relative">
         <img src="img/Other Service-04.png"
-          class="lg:w-full md:w-3/4 w-1/2 self-center" alt="">
-        <h1 class="text-2xl text-black font-bold md:my-10 my-5 text-center">Printing Service</h1>
-        <span class="text-black text-center">In addition to our digital solutions, AC Creative also provides professional printing services. Whether you need business cards, brochures, banners, or other printed materials, we ensure high-quality results to meet all your branding needs.
-        </span>
+          class="self-center" alt="">
+          <div class="absolute bottom-0 left-0 card bg-[#F9DA6D] mr-16">
+            <div class="card-body p-3 gap-0">
+              <h1 class="text-md text-black font-bold text-left">Printing Service</h1>
+              <span class="text-black text-left text-sm">In addition to our digital solutions, AC Creative also provides professional printing services. Whether you need business cards, brochures, banners, or other printed materials, we ensure high-quality results to meet all your branding needs.</span>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="grid md:grid-cols-2 grid-cols-1 md:8 gap-0 lg:hidden">
+      
+
+      <div class="flex flex-col justify-stretch items-center my-10">
+        <h1 class="text-xl text-black font-bold text-left">Transform Your Social Media</h1>
+        <img src="img/Other Service-01.png"
+          class="self-center" alt="">
+              
+              <span class="text-black font-semibold text-left text-sm px-10">AC Creative Space provides monthly social media management, including graphic design, content strategy, copywriting, and post-scheduling, for a complete visual overhaul.</span>
+           
+      </div>
+      <div class="flex flex-col justify-stretch items-center my-10">
+        <h1 class="text-xl text-black font-bold text-left">Photography</h1>
+        <img src="img/Other Service-02.png"
+          class="self-center" alt="">
+              
+              <span class="text-black font-semibold text-left text-sm px-10">AC Creative Space offers both graphic design and professional photography. From marketing campaigns to product shoots, our expert team ensures high-quality visuals for your brand. Get seamless, top-notch design and photography services in one place.</span>
+           
+      </div>
+
+      <div class="flex flex-col justify-stretch items-center my-10">
+        <h1 class="text-xl text-black font-bold text-left">Website Development</h1>
+        <img src="img/Other Service-03.png"
+          class="self-center" alt="">
+              
+              <span class="text-black font-semibold text-left text-sm px-10">AC Creative Space offers expert website development services. Our team creates responsive, user-friendly websites tailored to your brand. From e-commerce platforms to corporate sites, we deliver custom solutions to enhance your online presence and drive engagement.</span>
+           
+      </div>
+
+      <div class="flex flex-col justify-stretch items-center my-10">
+        <h1 class="text-xl text-black font-bold text-left">Printing Service</h1>
+        <img src="img/Other Service-04.png"
+          class="self-center" alt="">
+              
+              <span class="text-black font-semibold text-left text-sm px-10">In addition to our digital solutions, AC Creative also provides professional printing services. Whether you need business cards, brochures, banners, or other printed materials, we ensure high-quality results to meet all your branding needs.</span>
+           
       </div>
     </div>
   </div>
@@ -247,7 +382,7 @@
       <h1 class="text-black xl:text-6xl md:text-3xl text-xl font-bold ">Join our expanding family of delighted clients:
       </h1>
       <button
-        class="btn btn-md px-12 bg-[#F9DA6D] hover:bg-[#d3b64f] rounded-md border-0 text-white shadow-md my-5 md:my-0">Show Me
+        class="btn btn-md px-12 bg-[#F9DA6D] hover:bg-[#d3b64f] rounded-md border-0 text-black shadow-md my-5 md:my-0">Show Me
         More</button>
     </div>
     <!-- Slider main container -->
@@ -265,13 +400,15 @@
       </div>
     </div>
   </div>
+
+  
   <!-- Package -->
   <div id="pricing"
-    class="flex lg:flex-row flex-col justify-between items-center xl:px-96 py-8 min-h-[90vh] bg-[url('https://meviondesign.com/wp-content/uploads/2024/01/BLOB1-1-1.webp')] bg-center bg-no-repeat">
+    class="flex lg:flex-row flex-col justify-between items-center xl:px-60 py-8 min-h-[90vh] bg-[url('https://meviondesign.com/wp-content/uploads/2024/01/BLOB1-1-1.webp')] bg-center bg-no-repeat">
     <div class="lg:w-1/2 w-full lg:my-0 md:my-20 my-10 lg:text-start text-center px-12">
-      <h4 class="text-[#F9DA6D] xl:text-5xl lg:text-3xl text-xl font-bold">Ready to enhance your marketing game?</h4>
+      <h4 class="text-black xl:text-5xl lg:text-3xl text-xl font-bold">Ready to enhance your <span class="text-[#F9DA6D]">marketing game?</span></h4>
       <h6 class="xl:text:2xl text-lg font-semibold text-black my-5">Book a demo and discovery call to see:</h6>
-      <ol class="p-3 list-disc">
+      <ol class="p-3 list-disc text-left">
         <li class="text-black">The way AC Creative functions.</li>
         <li class="text-black">How you can achieve better, faster, and more cost-effective marketing.</li>
         <li class="text-black">How we differ from traditional agencies, freelancers, and in-house teams.</li>
@@ -279,15 +416,15 @@
       </ol>
       
     </div>
-    <div class="lg:w-1/2 w-full min-h-full md:px-12 px-4">
+    <div class="lg:w-1/2 w-full min-h-full md:px-8 px-4">
       <div class="card bg-[#313030] w-full h-full shadow-2xl shadow-[#F9DA6D] text-white">
-        <div class="card-body">
+        <div class="card-body md:p-16 p-8">
           <div class="flex flex-col justify-between">
             <h2 class="card-title text-4xl md:my-5 my-2">BOOK A CALL WITH US</h2>
-            <input type="text" placeholder="First Name" class="input w-full max-w-xs md:my-3 my-2" />
-            <input type="text" placeholder="Last Name" class="input w-full max-w-xs md:my-3 my-2" />
-            <input type="text" placeholder="Work Email" class="input w-full max-w-xs md:my-3 my-2" />
-            <select class="select w-full max-w-xs md:my-3 my-2">
+            <input type="text" placeholder="First Name" class="input w-full md:my-3 my-2" />
+            <input type="text" placeholder="Last Name" class="input w-full md:my-3 my-2" />
+            <input type="text" placeholder="Work Email" class="input w-full md:my-3 my-2" />
+            <select class="select w-full md:my-3 my-2">
               <option disabled selected>What is your Monthly Budget?</option>
               <option>Homer</option>
               <option>Marge</option>
@@ -295,7 +432,7 @@
               <option>Lisa</option>
               <option>Maggie</option>
             </select>
-            <select class="select w-full max-w-xs md:my-3 my-2">
+            <select class="select w-full md:my-3 my-2">
               <option disabled selected>Locations</option>
               <option>Homer</option>
               <option>Marge</option>
@@ -303,9 +440,9 @@
               <option>Lisa</option>
               <option>Maggie</option>
             </select>
-            <input type="text" placeholder="What tasks would you like to solve?" class="input w-full max-w-xs md:my-3 my-2" />
+            <input type="text" placeholder="What tasks would you like to solve?" class="input w-full md:my-3 my-2" />
             <div>
-              <button class="btn btn-block md:my-5 my-2">Book a demo</button>
+              <button class="btn btn-block bg-[#F9DA6D] hover:bg-[#d3b64f] text-black md:my-5 my-2">Book a demo</button>
               <span>By clicking next, you agree to receive communications from NinjaPromo in accordance with our Privacy Policy.</span>
             </div>
             
@@ -460,6 +597,9 @@
       momentumVelocityRatio: 2,
       sticky: false,
     },
+    scrollbar: {
+        el: ".swiper-scrollbar",
+      },
     
     
   });
@@ -475,6 +615,39 @@
       },
       1024:{
         slidesPerView: 1,
+      }
+    },
+    autoplay:{
+      delay: 5000,
+    },
+    freeMode:{
+      enabled: true,
+      minimumVelocity: 0,
+      momentum: true,
+      momentumBounce: true,
+      momentumBounceRatio: 2,
+      momentumRatio: 1,
+      momentumVelocityRatio: 2,
+      sticky: false,
+    },
+    scrollbar: {
+        el: ".swiper-scrollbar",
+      },
+    
+    
+  });
+
+  const swiper3 = new Swiper('.amazing-work2', {
+    speed: 400,
+    spaceBetween: 10,
+    loop: true,
+    slidesPerView: 3,
+    breakpoints:{
+      768:{
+        slidesPerView: 3,
+      },
+      1024:{
+        slidesPerView: 5,
       }
     },
     autoplay:{
